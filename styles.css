@@ -18,7 +18,7 @@ body {
     align-items:center;
     flex-direction: column;
     background-color: #53d041;
-    background-image: linear-gradient(90deg, #53d041 0%, #ffffff 33%, #ffffff 66%, #ff9570 100%);    
+    background-image: linear-gradient(90deg, #53d041 0%, #ffffff 33%, #ffffff 66%, #ff7949 100%);    
     border: solid 2px black;
     border-radius: 5px;
     box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.53);
