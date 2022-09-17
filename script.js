@@ -13,6 +13,7 @@ const input = document.getElementById("input");
 const h2 = document.getElementById("nombrePizza");
 const h4 = document.getElementById("precioPizza");
 const btn = document.getElementById("boton");
+const p = document.getElementById("ingredientesPizza");
 
 class pizza {
     constructor(id, nombre, ingredientes, precio){
@@ -67,8 +68,10 @@ boton.addEventListener('click', button)
 function seleccion(eleccion) {
     const pizzaElegida = pizzas.filter((pizza) => pizza.id == eleccion)
     for (pizza of pizzaElegida) {
-        h2.innerHTML = `${pizza.nombre}`;
-        h4.innerHTML = `${pizza.precio}`;
+        nombrePizza.innerHTML = `${pizza.nombre}`;
+        precioPizza.innerHTML = `${pizza.precio}`;
+        
+        
     }
 }
 
