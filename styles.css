@@ -1,7 +1,7 @@
 body {
-    margin-top: 100px;
+    margin: none;
     font-family: 'Roboto', sans-serif;
-    
+    background-color: #eeeeee;
 }
 
 
@@ -10,28 +10,22 @@ body {
 #principal {
     
     
-    width: 60%;
-    height: 400px;
+    width: 100%;
+    height: 100vh;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items:center;
     flex-direction: column;
-    background-color: #53d041;
-    background-image: linear-gradient(90deg, #53d041 0%, #ffffff 33%, #ffffff 66%, #ff7949 100%);    
-    border: solid 2px black;
-    border-radius: 5px;
-    box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.53);
--webkit-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.53);
--moz-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.53);
-
-   
+    background-color: black;
+    
 }
 
 #boton {
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 25%;
-    height: 10%;
+    height: 7%;
     background-color: gold;
     border: 2px goldenrod solid;
     border-radius: 3px;
@@ -43,30 +37,87 @@ body {
 }
 
 button:hover {
-    filter: opacity(.8);
+    filter: brightness(1.1);
 }
 
 #input {
     
     width: 25%;
-    height: 8%;
-    
+    height: 5%;
+    margin-top: -10px;
     border: 1px black solid;
     border-radius: 3px;
 }
 
-h2 {
+.negro {
+    color: black;
     margin-bottom: 0px;
     font-size:xx-large;
+    text-align: center;
+    text-transform: uppercase;
+    
     
 }
 
 h4 {
+    color: black;
     font-size:x-large;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
     
+    
+}
+#ingredientesPizza {
+    color: black;
+    font-size:large;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+    margin-top: -10px;
+    padding-top: 0px;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 h1 {
+    color: white;
     letter-spacing: 2px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 25%;
+    height: auto;
+    margin: 0 auto;
+    border: 0.5px solid rgb(83, 83, 83);
+    border-radius: 4px;
+    box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.35);
+-webkit-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.35);
+-moz-box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.35);
+
+}
+
+img {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    
+    width: 100%;
+    height: 200px;
     
 }
+
+.rojo {
+    color: red;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
